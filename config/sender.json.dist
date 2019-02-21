@@ -1,0 +1,18 @@
+{
+    "development": {
+        "sender": "north",
+        "cron": "0 */10 * * * *",
+        "auth": {
+            "bearer": "vF9dft4qmT"
+        },
+        "uri": "http://localhost:63790/updateip/"
+    },
+    "production": {
+        "sender": "north",
+        "cron": "0 */10 * * * *",
+        "auth": {
+            "bearer": "vF9dft4qmT"
+        },
+        "uri": "https://3epnm.de/updateip/"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "development": {
+        "redis": {
+            "host": "192.168.1.223",
+            "port": "6380",
+            "password": "UPf9-6sl7dmpdFYd-kEdA4p4Te4WpU"
+        },
+        "auth": {
+            "bearer": "vF9dft4qmT"
+        },
+        "port": 63790,
+        "force": "192.168.1.223"
+    },
+    "production": {
+        "redis": {
+            "host": "127.0.0.1",
+            "port": "65533",
+            "password": "3GwuFTp-kMlg9rvxGYbbk-TfuufKEn"
+        },
+        "auth": {
+            "bearer": "vF9dft4qmT"
+        },
+        "port": 63790
+    }
+}
